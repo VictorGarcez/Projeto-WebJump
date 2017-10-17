@@ -1,0 +1,9 @@
+API REST
+
+-- Instalar as dependencias do composer -- "composer install"
+
+-- Gerar o banco -- 
+1 - mysql -u root -p
+2 - create database webjumpdb
+3 - vendor/doctrine/orm/bin/doctrine.php orm:schema-tool-create
+			
